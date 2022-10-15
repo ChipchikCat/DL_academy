@@ -28,8 +28,7 @@ print(f"Оригинальный список: {cars}")
 del (cars[0], cars[4], cars[5])
 print(f"Список без дубликатов: {cars}")
 
-motorcycle = ['suzuki', 'bmw', 'ducati',
-              'yamaha', 'ninja', 'honda', 'kawasaki']
+motorcycle = ['suzuki', 'bmw', 'ducati','yamaha', 'ninja', 'honda', 'kawasaki']
 print(f"Оригинальный список: {motorcycle}")
 
 
