@@ -24,12 +24,13 @@ for number, fruit in enumerate(fruits, start=1):
 # TODO:
 cars = ['bmw', 'audi', 'toyota', 'subaru', 'honda', 'suzuki', 'volvo', 'geely']
 print(f"Оригинальный список: {cars}")
-
-del (cars[0], cars[4], cars[5])
-print(f"Список без дубликатов: {cars}")
-
-motorcycle = ['suzuki', 'bmw', 'ducati','yamaha', 'ninja', 'honda', 'kawasaki']
-print(f"Оригинальный список: {motorcycle}")
+motorcycle = ['suzuki', 'bmw', 'ducati',
+              'yamaha', 'ninja', 'honda', 'kawasaki']
+print((f"Оригинальный список: {motorcycle}"))
+a = set(cars)
+b = set(motorcycle)
+c = a - b
+print(f"Cписок без дубликатов: {list(c)}")
 
 
 # Задача-3:
