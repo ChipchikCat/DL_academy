@@ -1,3 +1,4 @@
+__author__ = 'Соловьев Андрей Сергеевич.'
 # Задача-1:
 # Дан список фруктов.
 # Напишите программу, выводящую фрукты в виде нумерованного списка,
@@ -12,7 +13,7 @@
 
 # Подсказка: воспользоваться методом .format()
 
-TODO:
+# TODO:
 fruits = ["apple", "banana", "qiwi", "watermelon"]
 for number, fruit in enumerate(fruits, start=1):
     print(f"{number}. {fruit:>10}")
@@ -24,8 +25,7 @@ for number, fruit in enumerate(fruits, start=1):
 # TODO:
 cars = ['bmw', 'audi', 'toyota', 'subaru', 'honda', 'suzuki', 'volvo', 'geely']
 print(f"Оригинальный список: {cars}")
-motorcycle = ['suzuki', 'bmw', 'ducati',
-              'yamaha', 'ninja', 'honda', 'kawasaki']
+motorcycle = ['suzuki', 'bmw', 'ducati','yamaha', 'ninja', 'honda', 'kawasaki']
 print((f"Оригинальный список: {motorcycle}"))
 a = set(cars)
 b = set(motorcycle)
