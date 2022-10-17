@@ -30,6 +30,7 @@ print(new_list)
 # Склонением пренебречь (2000 года, 2010 года)
 
 # TODO:
+
 date = input('Введите сегодняшнюю дату в формате dd.mm.yyyy: ')
 date_list = date.split('.')
 day = {'1': 'первое', '01': 'первое', '2': 'второе', '02': 'второе',
@@ -57,6 +58,7 @@ print(f'Сегодня {day[date_list[0]]} {month[date_list[1]]} {date_list[2]} 
 # для получения случайного числа используйте функцию randint() модуля random
 
 # TODO:
+
 n = int(input('Введите длину списка произвольных целых чисел: '))
 arbitrary_integers = []
 i = 0
@@ -74,6 +76,7 @@ print(arbitrary_integers)
 # например, lst = [1 , 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 4, 6]
 
 # TODO:
+
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 100, 2, 4, 100, 11, 3, 2]
 list2 = list(set(list1))
 print(list2)
