@@ -21,7 +21,7 @@ try:
     b = float(input("b = "))
     c = avg(a, b)
     print("Среднее геометрическое = {:.2f}".format(c))
-except Exception:
+except ValueError:
     print('Некорректные данные:Введите число!')
 
 # ПРИМЕЧАНИЕ: Для решения задач 2-4 необходимо познакомиться с модулями os, sys!
