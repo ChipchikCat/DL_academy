@@ -1,3 +1,5 @@
+__author__ = 'Соловьев Андрей Сергеевич.'
+
 """
     ПРИМЕЧАНИЕ: Для решения задачи необходимо познакомиться с модулями os, sys, argparse!
     СМ.: https://pythonworld.ru/moduli/modul-os.html,
